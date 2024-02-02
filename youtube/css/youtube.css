@@ -5,7 +5,8 @@ p {
 }
 
 .thumbnail {
-  width: 300px;
+  /* width: 300px; */
+  width: 100%;
   display: block;
 }
 
@@ -21,24 +22,22 @@ p {
   margin-bottom: 12px;
 }
 
-.video-preview {
+/* .video-preview {
   width: 300px;
   display: inline-block;
   vertical-align: top;
   margin-right: 15px;
+} */
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 25px;
+  row-gap: 45px;
 }
-
-.channel-picture {
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
-
-.video-info {
-  display: inline-block;
-  width: 200px;
-}
-
 .profile-picture {
   width: 40px;
   border-radius: 50px;
