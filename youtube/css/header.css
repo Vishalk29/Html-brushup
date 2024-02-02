@@ -1,0 +1,24 @@
+.header {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left-header {
+  background-color: lightpink;
+  width: 300px;
+}
+.middle-header {
+  margin-left: 30px;
+  margin-right: 50px;
+  background-color: lightgreen;
+  flex: 1;
+  max-width: 500px;
+}
+.right-header {
+  background-color: lightyellow;
+  width: 300px;
+}
+.search-bar {
+  display: block;
+}
